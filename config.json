@@ -1,0 +1,32 @@
+{
+  "tokens": {
+    "TOKEN1": {
+      "address": "0xFada139AB26B4F175Fb6b4Ba590713cfF7dBA8ce",
+      "symbol": "HIRS2",
+      "decimals": 18,
+      "name": "HIRS1"
+    },
+    "USDC": {
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "symbol": "USDC",
+      "decimals": 6,
+      "name": "USD Coin"
+    }
+  },
+  "chainConfig": {
+    "chainId": 8453,
+    "name": "Base",
+    "rpcUrl": "https://base.llamarpc.com",
+    "blockExplorer": "https://basescan.org",
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    }
+  },
+  "contracts": {
+    "uniswapRouter": "0x8EeD242094B50438881137eAcF2Cc4865fB3A10d",
+    "tokenApproval": "0x8EeD242094B50438881137eAcF2Cc4865fB3A10d",
+    "weth": "0x4200000000000000000000000000000000000006"
+  }
+}
