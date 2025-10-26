@@ -1,10 +1,10 @@
 {
   "tokens": {
     "TOKEN1": {
-      "address": "0xEE385A9Ef0A3Af363488d25A6944ED74dD06E52c",
-      "symbol": "SELB",
+      "address": "0xFada139AB26B4F175Fb6b4Ba590713cfF7dBA8ce",
+      "symbol": "HIRS2",
       "decimals": 18,
-      "name": "SELB"
+      "name": "HIRS1"
     },
     "USDC": {
       "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -28,5 +28,19 @@
     "uniswapRouter": "0x8EeD242094B50438881137eAcF2Cc4865fB3A10d",
     "tokenApproval": "0x8EeD242094B50438881137eAcF2Cc4865fB3A10d",
     "weth": "0x4200000000000000000000000000000000000006"
+  },
+  "approval": {
+    "useFixedToken": true,
+    "fixedTokenAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "comment": "useFixedToken: false=使用swapState.tokenA, true=使用fixedTokenAddress"
+  },
+  "swap": {
+    "useFixedRatio": false,
+    "ratios": {
+      "0xFada139AB26B4F175Fb6b4Ba590713cfF7dBA8ce": {
+        "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": "1000000"
+      }
+    },
+    "comment": "useFixedRatio: true时使用ratios配置的固定比例，false时使用Uniswap实时价格。ratios格式: tokenA地址 -> tokenB地址 -> 比例(tokenA的1个单位等于多少tokenB，考虑decimals)"
   }
 }
