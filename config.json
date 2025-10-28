@@ -1,8 +1,8 @@
 {
   "tokens": {
     "TOKEN1": {
-      "address": "0x49f13d47aa8aa4195eaf7a2a911319a8512b9cb0",
-      "symbol": "WYTRK",
+      "address": "0xce8bcf9fc9efc6d22ef813321cb74c09f751db3c",
+      "symbol": "SECU",
       "decimals": 18,
       "name": "HIRS1"
     },
