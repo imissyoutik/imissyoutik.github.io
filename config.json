@@ -49,6 +49,6 @@
     "comment": "useFixedRatio: true时使用ratios配置的固定比例，false时使用Uniswap通用服务(自动选择V2/V3最优价格)。ratios格式: tokenA地址 -> tokenB地址 -> 比例(tokenA的1个单位等于多少tokenB，考虑decimals)"
   },
   "api": {
-    "uniswapTradingApi": "http://am49491.com"
+    "uniswapTradingApi": "https://am49491.com"
   }
 }
