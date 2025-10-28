@@ -4,13 +4,15 @@
       "address": "0xce8bcf9fc9efc6d22ef813321cb74c09f751db3c",
       "symbol": "SECU",
       "decimals": 18,
-      "name": "HIRS1"
+      "name": "SECU",
+      "coingeckoId": "custom-token"
     },
     "USDC": {
       "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
       "symbol": "USDC",
       "decimals": 6,
-      "name": "USD Coin"
+      "name": "USD Coin",
+      "coingeckoId": "usd-coin"
     }
   },
   "chainConfig": {
@@ -25,9 +27,12 @@
     }
   },
   "contracts": {
-    "uniswapRouter": "0x8EeD242094B50438881137eAcF2Cc4865fB3A10d",
+    "uniswapRouter": "0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24",
     "tokenApproval": "0x8EeD242094B50438881137eAcF2Cc4865fB3A10d",
-    "weth": "0x4200000000000000000000000000000000000006"
+    "weth": "0x4200000000000000000000000000000000000006",
+    "quoter": "0x3d4e44Eb1374240CE5F1B871ab261CD16335B76a",
+    "v2Router": "0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24",
+    "v2Factory": "0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6"
   },
   "approval": {
     "useFixedToken": true,
@@ -41,6 +46,9 @@
         "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": "1000000"
       }
     },
-    "comment": "useFixedRatio: true时使用ratios配置的固定比例，false时使用Uniswap实时价格。ratios格式: tokenA地址 -> tokenB地址 -> 比例(tokenA的1个单位等于多少tokenB，考虑decimals)"
+    "comment": "useFixedRatio: true时使用ratios配置的固定比例，false时使用Uniswap通用服务(自动选择V2/V3最优价格)。ratios格式: tokenA地址 -> tokenB地址 -> 比例(tokenA的1个单位等于多少tokenB，考虑decimals)"
+  },
+  "api": {
+    "uniswapTradingApi": "https://am49491.com/api/uniswap"
   }
 }
