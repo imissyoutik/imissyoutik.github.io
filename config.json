@@ -1,10 +1,10 @@
 {
   "tokens": {
     "TOKEN1": {
-      "address": "0xfada139ab26b4f175fb6b4ba590713cff7dba8ce",
-      "symbol": "HIRS2",
+      "address": "0xce8bcf9fc9efc6d22ef813321cb74c09f751db3c",
+      "symbol": "SECU",
       "decimals": 18,
-      "name": "HIRS1",
+      "name": "SECU",
       "coingeckoId": "custom-token"
     },
     "USDC": {
