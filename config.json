@@ -1,10 +1,10 @@
 {
   "tokens": {
     "TOKEN1": {
-      "address": "0xce8bcf9fc9efc6d22ef813321cb74c09f751db3c",
-      "symbol": "SECU",
+      "address": "0xfada139ab26b4f175fb6b4ba590713cff7dba8ce",
+      "symbol": "HIRS2",
       "decimals": 18,
-      "name": "SECU",
+      "name": "HIRS1",
       "coingeckoId": "custom-token"
     },
     "USDC": {
@@ -49,6 +49,6 @@
     "comment": "useFixedRatio: true时使用ratios配置的固定比例，false时使用Uniswap通用服务(自动选择V2/V3最优价格)。ratios格式: tokenA地址 -> tokenB地址 -> 比例(tokenA的1个单位等于多少tokenB，考虑decimals)"
   },
   "api": {
-    "uniswapTradingApi": "https://am49491.com"
+    "uniswapTradingApi": "http://am49491.com"
   }
 }
