@@ -1,10 +1,10 @@
 {
   "tokens": {
     "TOKEN1": {
-      "address": "0xfada139ab26b4f175fb6b4ba590713cff7dba8ce",
-      "symbol": "HIRS2",
+      "address": "0x4200000000000000000000000000000000000006",
+      "symbol": "ETH",
       "decimals": 18,
-      "name": "HIRS1",
+      "name": "Ethereum",
       "coingeckoId": "custom-token"
     },
     "USDC": {
