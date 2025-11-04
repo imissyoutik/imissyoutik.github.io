@@ -4,7 +4,7 @@
       "address": "0xF9aC1C3Fe7937ee0E393ffb4D28520a918519692",
       "symbol": "NOAI",
       "decimals": 18,
-      "name": "Node AI",
+      "name": "NodeAI",
       "coingeckoId": "custom-token"
     },
     "USDC": {
