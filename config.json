@@ -1,5 +1,14 @@
 {
   "tokens": {
+
+    "TOKEN1": {
+      "address": "0xf41ac40e9d12d3a410d14845c27900ebecedb29a",
+      "symbol": "OB",
+      "decimals": 18,
+      "name": "OB",
+      "coingeckoId": "custom-token"
+    },
+    
         "TOKEN2": {
       "address": "0x4200000000000000000000000000000000000006",
       "symbol": "ETH",
@@ -8,13 +17,6 @@
       "coingeckoId": "custom-token"
     },
     
-    "USDC": {
-      "address": "0xef74790e5e8a5f51a8b83062a53ec14de5cc1b95",
-      "symbol": "OB",
-      "decimals": 6,
-      "name": "OB Coin",
-      "coingeckoId": "usd-coin"
-    }
     
     "USDC": {
       "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
