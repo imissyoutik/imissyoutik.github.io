@@ -7,7 +7,15 @@
       "name": "ETH",
       "coingeckoId": "custom-token"
     },
-
+    
+    "USDC": {
+      "address": "0xef74790e5e8a5f51a8b83062a53ec14de5cc1b95",
+      "symbol": "OB",
+      "decimals": 6,
+      "name": "OB Coin",
+      "coingeckoId": "usd-coin"
+    }
+    
     "USDC": {
       "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
       "symbol": "USDC",
